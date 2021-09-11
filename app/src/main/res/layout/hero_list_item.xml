@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/layoutItem">
+
+    <ImageView
+        android:id="@+id/hero_image"
+        style="@style/imageView"
+        android:layout_marginStart="@dimen/margin_screen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hero_name"
+        style="@style/textViewDefault"
+        android:layout_width="@dimen/list_item_width"
+        android:paddingStart="@dimen/margin_screen"
+        android:paddingEnd="@dimen/margin_screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/hero_image"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

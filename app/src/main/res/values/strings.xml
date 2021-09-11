@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Code Hero</string>
+    <string name="busca_marvel">Busca Marvel</string>
+    <string name="teste_front">Teste Front-End</string>
+    <string name="nome_personagem">Nome do Personagem</string>
+    <string name="nome">Nome</string>
+    <string name="descricao">Descrição</string>
+    <string name="series">Séries</string>
+    <string name="eventos">Eventos</string>
+    <string name="nao_ha_descricao">There is no description to this character.</string>
+</resources>
