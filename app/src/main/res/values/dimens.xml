@@ -3,6 +3,7 @@
     <dimen name="header_font_size">12sp</dimen>
     <dimen name="header_line_width">35dp</dimen>
     <dimen name="header_line_height">2dp</dimen>
+    <dimen name="header_title_width">150dp</dimen>
     <dimen name="margin_screen">10dp</dimen>
     <dimen name="margin_screen_medium">3.5dp</dimen>
     <dimen name="margin_screen_small">2dp</dimen>
