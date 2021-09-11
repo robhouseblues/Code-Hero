@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Click(R.id.btn_page1)
     void clickPage1() {
-        if (currentPage == TOTAL_PAGES) {
+        if (currentPage == TOTAL_PAGES && currentPage > 2) {
             goToPage("PREVIOUS", 2);
         } else {
             clickPreviousPage();
